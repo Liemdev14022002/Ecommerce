@@ -1,0 +1,42 @@
+/* Định dạng cho .product__item__pic */
+.product__item__pic {
+    cursor: pointer;
+}
+
+/* Định dạng cho .see-more */
+.see-more {
+    color: black;
+}
+
+.see-more:hover {
+    color: green;
+}
+
+/* Định dạng cho thẻ ul chỉ áp dụng trong .box_main */
+.box_main ul {
+    list-style-type: none; /* Loại bỏ dấu đầu dòng */
+    padding: 0; /* Loại bỏ khoảng cách thừa */
+    margin: 0; /* Loại bỏ khoảng cách thừa */
+}
+
+/* Định dạng cho thẻ li chỉ áp dụng trong .box_main */
+.box_main ul li {
+    margin: 10px 0; /* Khoảng cách giữa các mục */
+}
+
+/* Định dạng cho liên kết trong thẻ li chỉ áp dụng trong .box_main */
+.box_main ul li a {
+    display: block; /* Để toàn bộ thẻ li có thể nhấp được */
+    padding: 10px 15px; /* Khoảng cách bên trong */
+    background-color: #f8f9fa; /* Màu nền */
+    color: #333; /* Màu chữ */
+    text-decoration: none; /* Loại bỏ gạch chân */
+    border-radius: 5px; /* Bo tròn các góc */
+    transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển màu mượt mà */
+}
+
+/* Định dạng khi người dùng hover vào liên kết chỉ áp dụng trong .box_main */
+.box_main ul li a:hover {
+    background-color: #007bff; /* Màu nền khi hover */
+    color: #fff; /* Màu chữ khi hover */
+}
